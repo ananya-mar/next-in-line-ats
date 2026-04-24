@@ -328,7 +328,7 @@ function Home() {
       <h1 style={{ textAlign: 'center', marginBottom: '40px' }}>Next-In-Line ATS</h1>
       
       <div style={{ border: '1px solid #ccc', padding: '24px', borderRadius: '8px', marginBottom: '24px' }}>
-        <h3 style={{ marginTop: 0 }}>🏢 Company: Create a New Job Opening</h3>
+        <h3 style={{ marginTop: 0 }}> Company: Create a New Job Opening</h3>
         <form onSubmit={handleCreateJob} style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '16px' }}>
           <input 
             value={jobTitle} 
@@ -351,7 +351,7 @@ function Home() {
       </div>
 
       <div style={{ border: '1px solid #ccc', padding: '24px', borderRadius: '8px', marginBottom: '24px' }}>
-        <h3 style={{ marginTop: 0 }}>📝 Applicant: Apply for a Job</h3>
+        <h3 style={{ marginTop: 0 }}> Applicant: Apply for a Job</h3>
         <p style={{ color: '#666', fontSize: '14px', margin: '0 0 12px 0' }}>Paste a Job ID here to submit a test application.</p>
         <form onSubmit={handleApply} style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '16px' }}>
           <input 
@@ -385,7 +385,7 @@ function Home() {
       </div>
 
       <div style={{ border: '1px solid #ccc', padding: '24px', borderRadius: '8px' }}>
-        <h3 style={{ marginTop: 0 }}>🔎 Applicant: Check Status</h3>
+        <h3 style={{ marginTop: 0 }}> Applicant: Check Status</h3>
         <p style={{ color: '#666', fontSize: '14px', margin: '0 0 16px 0' }}>Already applied? Check your waitlist position or acknowledge a promotion.</p>
         <Link to="/status" style={{ display: 'inline-block', padding: '12px 20px', background: '#1D9E75', color: 'white', textDecoration: 'none', borderRadius: '4px', fontWeight: 'bold' }}>
           Go to Applicant Portal
@@ -393,7 +393,7 @@ function Home() {
       </div>
 
       <div style={{ border: '1px solid #ccc', padding: '24px', borderRadius: '8px', marginTop: '24px' }}>
-        <h3 style={{ marginTop: 0 }}>📊 Company: Go to Job Dashboard</h3>
+        <h3 style={{ marginTop: 0 }}> Company: Go to Job Dashboard</h3>
         <p style={{ color: '#666', fontSize: '14px', margin: '0 0 16px 0' }}>Enter a Job ID to view its dashboard with the pipeline of applicants.</p>
         <div style={{ display: 'flex', gap: '8px' }}>
           <input 
